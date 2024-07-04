@@ -10,3 +10,12 @@
     },
     // will Add more cities or areas with their respective fares
 };
+
+// Function to calculate taxi fare from point A to point B
+function calculateTaxiFare(start, end) {
+    if (fareRates[start] && fareRates[start][end]) {
+        return fareRates[start][end];
+    } else {
+        return null;
+    }
+}
