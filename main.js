@@ -4,6 +4,12 @@
         'Johannesburg': 60, // Fare from Pretoria to Johannesburg in currency units (e.g., ZAR)
         // Add more destinations and fares as needed
     },
+
+    'Johannesburg': {
+        'Pretoria': 60, // Fare from Pretoria to Johannesburg in currency units (e.g., ZAR)
+        // Add more destinations and fares as needed
+    },
+
     'Johannesburg': {
         'Durban': 280, // Fare from Johannesburg to Pretoria
         //will Add more fares as needed
